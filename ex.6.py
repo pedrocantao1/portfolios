@@ -1,0 +1,12 @@
+print ('DESENVOLVIDO POR PEDROCANTAO')
+print ('2019.2 - INTRODUÇÃO A PROGRAMAÇÃO')
+print ('ANÁLISE E DESENVOLVIMENTO DE SISTEMAS')
+print ('Número da matrícula : *******')
+import math
+n = float(input('Digite um número : '))
+nd = float(n)*float(n)
+nt = float(n)*float(n)*float(n)
+nr = math.sqrt(n)
+print ('O dobro de {} é {}'.format(n, nd))
+print ('O triplo de {} é {}'.format(n, nt))
+print ('A raiz quadrada de {} é {:.2f}'.format(n, nr))
